@@ -26,3 +26,5 @@ jobs:
 
       - name: Run Python script
         run: python main.py  # 运行Python脚本
+
+        #update main.yml
