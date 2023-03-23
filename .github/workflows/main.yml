@@ -15,3 +15,14 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+
+      - name: Checkout code
+        uses: actions/checkout@v2  # 检出代码
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x  # 设置Python版本
+
+      - name: Run Python script
+        run: python main.py  # 运行Python脚本
