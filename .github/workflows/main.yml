@@ -30,4 +30,4 @@ jobs:
         #update main.yml
         # add README.md
         # add helloword.c
-      
+        # add print sentence in main.py
